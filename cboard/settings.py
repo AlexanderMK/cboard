@@ -26,7 +26,7 @@ SECRET_KEY = 'django-insecure-fevfhi*fq)330f4qflnbyplfb$9(s&b%hfs!4ftu(4ppq00yt6
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['cboard-meetings.herokuapp.com']
 
 
 # Application definition
@@ -126,3 +126,5 @@ STATIC_URL = 'static/'
 DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
 
 django_heroku.settings(locals())
+
+
