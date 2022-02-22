@@ -6,7 +6,7 @@ from meetings.views import ParticipantViewSet, MeetingsViewSet
 
 router = routers.DefaultRouter()
 router.register(r'participants', ParticipantViewSet)
-router.register(r'meetings', MeetingsViewSet, '/meetings')
+router.register(r'meetings', MeetingsViewSet, "/meetings")
 
 urlpatterns = [
    path('', include(router.urls)),
