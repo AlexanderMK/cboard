@@ -18,7 +18,7 @@ from django.urls import path
 from django.urls import path, include
 
 urlpatterns = [
-    
-    path('cboard/', include('meetings.urls')),
+    path('admin/', admin.site.urls),
+    path('meetings/', include('meetings.urls')),
    
 ]
