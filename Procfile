@@ -1,1 +1,1 @@
-web: gunicorn cbaord.wsgi
+web: gunicorn cboard.wsgi
