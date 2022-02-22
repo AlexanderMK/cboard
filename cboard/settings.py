@@ -27,7 +27,11 @@ SECRET_KEY = 'django-insecure-fevfhi*fq)330f4qflnbyplfb$9(s&b%hfs!4ftu(4ppq00yt6
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['cboard-meetings.herokuapp.com']
+ALLOWED_HOSTS = [
+    'localhost', 
+    '127.0.0.1',
+    'cboard-meetings.herokuapp.com'
+    ]
 
 
 # Application definition
