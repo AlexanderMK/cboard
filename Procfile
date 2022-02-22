@@ -1,1 +1,1 @@
-web: gunicorn cboard.wsgi
+web: gunicorn meetings.wsgi
