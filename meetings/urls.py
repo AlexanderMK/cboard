@@ -9,6 +9,6 @@ router.register(r'participants', ParticipantViewSet)
 router.register(r'meetings', MeetingsViewSet)
 
 urlpatterns = [
-   path('', include('meetings.urls')),
+   path('', include(router.urls)),
    
 ]
